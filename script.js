@@ -1,7 +1,6 @@
 function decimalToBinary(num) {
   //Write you code here
-	function decimalToBinary(decimal){
-		return decimal.toString(2);
+		return num.toString(2);
 	}
 	console.log(decimalToBinary(7));
 	console.log(decimalToBinary(10))
